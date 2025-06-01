@@ -259,7 +259,12 @@ Bright Spot (2022)*/}
             Bright Spot (2022)
           </h2>
           <div className="flex flex-col lg:flex-row gap-10  items-center justify-center">
-            <Link className="  hover:opacity-50 cursor-pointer    ">
+            <Link
+              to={
+                "https://drive.google.com/file/d/1r4uuhM-epAB0frg4LxGQT18WvO3M7ejm/view?pli=1"
+              }
+              className="  hover:opacity-50 cursor-pointer    "
+            >
               <img
                 src="/BS.jpeg"
                 alt=""
@@ -292,10 +297,7 @@ Savli (2022)*/}
             Savli (2022)
           </h2>
           <div className="flex flex-col lg:flex-row gap-10  items-center justify-center">
-            <Link
-              to={"https://www.youtube.com/watch?v=bJpas98l9pM"}
-              className="  hover:opacity-50 cursor-pointer    "
-            >
+            <Link className="  hover:opacity-50 cursor-pointer    ">
               <img
                 src="/S.jpeg"
                 alt=""

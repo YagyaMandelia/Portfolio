@@ -69,6 +69,15 @@ function App() {
                   My CV
                 </span>
               </Link>
+              <Link
+                to={
+                  "https://drive.google.com/drive/folders/10Ya37lKR_e3u0T4b-Gg0iA9CBwGZ26f6"
+                }
+              >
+                <span className="text-blue-400 hover:underline cursor-pointer">
+                  My graphic designs
+                </span>
+              </Link>
             </div>
           </div>
         </div>
